@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Taxually.TechnicalTest.DataAccess\Taxually.TechnicalTest.DataAccess.csproj" />
+    <ProjectReference Include="..\Taxually.TechnicalTest.Domain\Taxually.TechnicalTest.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
