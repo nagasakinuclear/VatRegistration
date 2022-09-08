@@ -5,11 +5,13 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.TechnicalTest.Web", "Taxually.TechnicalTest\Taxually.TechnicalTest.Web.csproj", "{A119A885-BCD4-473B-861A-480AA3C87EB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.TechnicalTest.ApplicationLogic", "Taxually.TechnicalTest.ApplicationLogic\Taxually.TechnicalTest.ApplicationLogic.csproj", "{77205947-8EAE-4F8A-87DE-A80ACB0EAA0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.TechnicalTest.ApplicationLogic", "Taxually.TechnicalTest.ApplicationLogic\Taxually.TechnicalTest.ApplicationLogic.csproj", "{77205947-8EAE-4F8A-87DE-A80ACB0EAA0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.TechnicalTest.DataAccess", "Taxually.TechnicalTest.DataAccess\Taxually.TechnicalTest.DataAccess.csproj", "{DD29D52A-38D7-4B76-BD9E-D1F105DA7B27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.TechnicalTest.DataAccess", "Taxually.TechnicalTest.DataAccess\Taxually.TechnicalTest.DataAccess.csproj", "{DD29D52A-38D7-4B76-BD9E-D1F105DA7B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.TechnicalTest.Domain", "Taxually.TechnicalTest.Domain\Taxually.TechnicalTest.Domain.csproj", "{30BA18A9-88CB-41DF-9A38-B66BBAD9A0A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.TechnicalTest.Domain", "Taxually.TechnicalTest.Domain\Taxually.TechnicalTest.Domain.csproj", "{30BA18A9-88CB-41DF-9A38-B66BBAD9A0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.TechnicalTest.Tests", "Taxually.TechnicalTest.Tests\Taxually.TechnicalTest.Tests.csproj", "{A83BD767-61F5-4B57-8DAD-A14A1A144115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{30BA18A9-88CB-41DF-9A38-B66BBAD9A0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30BA18A9-88CB-41DF-9A38-B66BBAD9A0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30BA18A9-88CB-41DF-9A38-B66BBAD9A0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83BD767-61F5-4B57-8DAD-A14A1A144115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83BD767-61F5-4B57-8DAD-A14A1A144115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83BD767-61F5-4B57-8DAD-A14A1A144115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83BD767-61F5-4B57-8DAD-A14A1A144115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

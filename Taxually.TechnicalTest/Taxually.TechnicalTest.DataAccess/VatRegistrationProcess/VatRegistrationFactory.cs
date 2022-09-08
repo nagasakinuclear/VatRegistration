@@ -20,7 +20,7 @@ namespace Taxually.TechnicalTest.DataAccess.VatRegistrationProcess
 
             if (strategy == null)
             {
-                throw new Exception("Strategy was not registered");
+                throw new Exception($"Strategy was not registered for country {country}");
             }
 
             return strategy;
